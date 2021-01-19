@@ -24,8 +24,8 @@ checkAge('John', 17);
 let myFavoriteVegetables = ['broccoli', 'carrots', 'asparagus', 'brussels sprouts'];
 
 // Use a loop to display each of my favorite vegetables to the console.
-for (let i of myFavoriteVegetables) {
-    console.log(i);
+for (let i = 0; i < myFavoriteVegetables.length; ++i) {
+    console.log(myFavoriteVegetables[i]);
 }
 
 // Pet object with 2 properties, name and breed
